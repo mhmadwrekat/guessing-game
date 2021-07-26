@@ -1,2 +1,6 @@
 # guessing-game
-quizzes the user on fun facts gives the user some basic information about who you are and where you came from. 
+
+## Learn more about me !
+
+
+ It gives the user some fun facts and some basic information about who I am and where I come from
