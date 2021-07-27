@@ -15,10 +15,26 @@ footer{
   color :black;
 
 }
+img {
+  position: absolute;
+  border-radius: 400px ;
+  top : 185px ;
+  right : 20px ;
+  width : 200px ;
+  height : 170px ;
+}
 p{
-  text-align: center;
+  font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  font-size: 17px ;
+  width : 500px ;
+  border : 15px white ;
+  padding : 15px ;
+  margin : 15px ;
+}
+main{
+
 color: rgb(211, 3, 211);
 }
 body{
-  background-color: black;
+  background-color: rgb(253, 245, 245);
 }
