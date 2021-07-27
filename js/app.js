@@ -2,8 +2,8 @@
 'use strict' ;
 
 
-let name = prompt('Enter Your Name Please ?');
-alert('Welcome To my page ^-^ , I will ask you 5 questions , I hope you will answer YES or NO');
+let userName = prompt('Enter Your Name Please ?');
+alert('Welcome ' + userName +' To my page ^-^ , I will ask you 5 questions , I hope you will answer YES or NO');
 
 
 let know = prompt('Do We know each other ?').toLocaleLowerCase();
@@ -11,109 +11,94 @@ let know = prompt('Do We know each other ?').toLocaleLowerCase();
 switch(know)
 {
     case 'yes':
-        //   console.log('yes');
-        alert('truly ! thats cool');
-        break;
-        case 'y':
-        //     console.log('yes');
-        alert('truly ! thats cool');
-            break;
-            case 'no':
-                alert('I hope we get to know each other ^-^');
-                break;
-                case 'n':
-                    alert('I hope we get to know each other ^-^');
-                    break;
-                    default :
-        alert('You Didnt answer :(');
+    case 'y':
+    //   console.log('correct');
+    alert('truly ! thats cool');
+    break;
+ 
+    case 'no':
+    case 'n':
+    alert('I hope we get to know each other ^-^');
+    break;
+              
+    default :
+    alert('You Didnt answer :(');
 }
 
-let like = prompt('Do you Like Web pages ?').toLocaleLowerCase();
+let likeWeb = prompt('Do I Like Web pages ?').toLocaleLowerCase();
 
-switch(like)
+switch(likeWeb)
 {
     case 'yes':
-      //  console.log('yes');
-        alert('truly ! thats cool , see my page ^-^');
-        break;
-        case 'y':
-      //    console.log('yes');
-        alert('truly ! thats cool , see my page ^-^');
-            break;
-            case 'no':
-                alert('I Like Web pages , I hope you change your mind after watching my page :)');
-                break;
-                case 'n':
-                    alert('I like web pages , I hope you change your mind after watching my page :)');
-                    break;
-                    default :
-        alert('You Didnt answer :(');
+    case 'y':
+    //  console.log('correct');
+    alert('sure i love it , see my page ^-^');
+    break;
+   
+    case 'no':
+    case 'n':
+    alert('why not everyone like web pages :(');
+    break;
+                
+    default :
+    alert('You Didnt answer :(');
 }
 
-let learn = prompt('Do you want to know more about web pages ?').toLocaleLowerCase();
+let learnWeb = prompt('Do i learned about web pages ?').toLocaleLowerCase();
 
-switch(learn)
+switch(learnWeb)
 {
     case 'yes':
+    case 'y':
+    //   console.log('correct');
+    alert('sure , i learned about it ^-^');
+    break;
+       
+    case 'no':
+    case 'n':
+    alert('no incorrect  :(');
+    break;
+               
+    default :
+    alert('You Didnt answer :(');
+}
+
+let likeSport = prompt('Do i like sport ?').toLocaleLowerCase();
+
+switch(likeSport)
+{
+    case 'yes':
+    case 'y':
+     //   console.log('correct');
+    alert('sure , i love sport very much ^-^');
+    break;
+        
+    case 'no':
+    case 'n':
+    alert('why not everyone like sport :(');
+    break;
+              
+    default :
+    alert('You Didnt answer :(');
+}
+
+let healthyFood = prompt('do i like healthy food ?').toLocaleLowerCase();
+
+switch(healthyFood)
+{
+    case 'yes':
+    case 'y':
     //   console.log('yes');
-        alert('truly ! thats good for you ^-^');
-        break;
-        case 'y':
-    //      console.log('yes');
-        alert('truly ! thats good for you ^-^');
-            break;
-            case 'no':
-                alert('I hope you think about it again :)');
-                break;
-                case 'n':
-                    alert('I hope you think about it again :)');
-                    break;
-                    default :
-        alert('You Didnt answer :(');
-}
-
-let knowProgramm = prompt('Do you have information about programming ?').toLocaleLowerCase();
-
-switch(knowProgramm)
-{
-    case 'yes':
-     //   console.log('yes');
-        alert('Nice programming is cool ^-^');
-        break;
-        case 'y':
-     //       console.log('yes');
-        alert('Nice programming is cool ^-^');
-            break;
-            case 'no':
-                alert('why ! programming is cool ^-^');
-                break;
-                case 'n':
-                    alert('why ! programming is cool ^-^');
-                    break;
-                    default :
-        alert('You Didnt answer :(');
-}
-
-let opinion = prompt('In Your opinion , Are my questions good ?').toLocaleLowerCase();
-
-switch(opinion)
-{
-    case 'yes':
-     //   console.log('yes');
-        alert('Thanks I appreciate it ^-^');
-        break;
-        case 'y':
-     //     console.log('yes');
-        alert('Thanks I appreciate it ^-^');
-            break;
-            case 'no':
-                alert('I respect your opinion ^-^');
-                break;
-                case 'n':
-                    alert('I respect your opinion ^-^');
-                    break;
-                    default :
-        alert('You Didnt answer :(');
+    alert('sure i like it ^-^');
+    break;
+      
+    case 'no':
+    case 'n':
+    alert('no i love healthy food :(');
+    break;
+               
+    default :
+    alert('You Didnt answer :(');
 }
 
 alert('Thanks For Answer Question , And Welcome To My Page , ENJOY ^-^');
