@@ -1,6 +1,24 @@
+h1{
+  text-align: center;
+  background-color: blueviolet;
+}
+a{
+  text-decoration: none ;
+  border-style: outset ;
+  padding: 7px ;
+  font-weight: bold;
+  color :rgb(186, 189, 26) ;
+}
+footer{
+  text-align: center;
+  background-color: blueviolet;
+  color :black;
 
-h1 {
-    margin: 30px;
-    text-align: center;
-    
-  color :rgb(219, 219, 200) ; }
+}
+p{
+  text-align: center;
+color: chartreuse;
+}
+body{
+  background-color: black;
+}
