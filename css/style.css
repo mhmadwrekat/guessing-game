@@ -26,6 +26,8 @@ img {
   height : 200px ;
 }
 p{
+  /*font-weight: bold ;
+  font-style : oblique ;*/
   font-size: 22px ;
   width : 500px ;
   border : 15px white ;
