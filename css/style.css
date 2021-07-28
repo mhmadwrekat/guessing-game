@@ -25,9 +25,12 @@ img {
   width : 230px ;
   height : 200px ;
 }
+#underline{
+  text-decoration: underline ;
+}
 p{
-  /*font-weight: bold ;
-  font-style : oblique ;*/
+  font-weight: bold ;
+  font-style : oblique ;
   font-size: 22px ;
   width : 500px ;
   border : 15px white ;
