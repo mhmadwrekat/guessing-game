@@ -1,13 +1,5 @@
 # guessing-game
 
-
-
-
-<!-- pair programming worked together by :
- 1. Drivers : [mohammad alwrekat](https://github.com/mhmadwrekat)
- 2. Navigator : []() -->
-
-
 ## Learn more about me !
 
 
@@ -20,5 +12,6 @@
  * add Experience
  * add picture
  * convert all code to Functions
+ * add css style
   
   

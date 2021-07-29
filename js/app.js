@@ -3,7 +3,6 @@
 
 let score = 0 ;
 
-// called Function :
 
 enterName();
 knowOther();
@@ -14,14 +13,14 @@ healthyFood();
 guessNumber();
 guessFavFruites();
 
-///// Final score :
+
 alert('Your Final Score Is : ' + score + '%') ;
 
-///// Final Welcome Message :
+
 alert('Thanks For Answer Question , And Welcome To My Page , ENJOY ^-^');
 
 
-////////// First function (Entering name message) :
+
 
 function enterName()
 {
@@ -30,7 +29,6 @@ function enterName()
   ' To my page ^-^ , I will ask you 5 questions , I hope you will answer YES or NO');
 }
 
-////////////////// the Five Function Question :
 
 function knowOther()
 {
@@ -40,7 +38,7 @@ function knowOther()
   {
   case 'yes':
   case 'y':
-  //   console.log('correct');
+
     alert('truly ! thats cool');
     score+= 14 ;
     break;
@@ -65,7 +63,6 @@ function likeWeb()
   case 'y':
     score+= 14 ;
 
-    //  console.log('correct');
     alert('sure i love it , see my page ^-^');
     break;
 
@@ -89,7 +86,6 @@ function learnWeb()
   case 'y':
     score+= 14 ;
 
-    //   console.log('correct');
     alert('sure , i learned about it ^-^');
     break;
 
@@ -113,7 +109,6 @@ function likeSport()
   case 'y':
     score+= 14 ;
 
-    //   console.log('correct');
     alert('sure , i love sport very much ^-^');
     break;
 
@@ -136,7 +131,6 @@ function healthyFood()
   case 'y':
     score+= 14 ;
 
-    //   console.log('yes');
     alert('sure i like it ^-^');
     break;
 
@@ -149,8 +143,6 @@ function healthyFood()
     alert('You Didnt answer :(');
   }
 }
-
-/////// Function Guessing Number game :
 
 function guessNumber()
 {
@@ -193,8 +185,6 @@ function guessNumber()
     }
   } else { alert('Thats Ok Maybe Later  :)'); }
 }
-
-//////////// Function guessing from ayyar (array) :
 
 function guessFavFruites()
 {
